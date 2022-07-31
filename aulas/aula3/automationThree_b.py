@@ -19,7 +19,7 @@ print(topico)
 for linguagem in linguagens:
     print(
         (linguagem.find_element(By.TAG_NAME, "h2").text,
-        linguagem.find_element(By.TAG_NAME, "p").text,)
+        linguagem.find_element(By.TAG_NAME, "p").text)
     )
 
-#browser.quit()
+browser.quit()
