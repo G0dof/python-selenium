@@ -20,4 +20,4 @@ browser.implicitly_wait(10)
 
 fillForm(browser, "Parasite", "jorgeperes@uol.com.br", "(051)987654321")
 
-browser.quit()
+#browser.quit()

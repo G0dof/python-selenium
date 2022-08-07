@@ -1,4 +1,3 @@
-import 
 from pprint import pprint
 from urllib.parse import urlparse
 from selenium import webdriver
