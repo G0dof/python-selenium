@@ -41,4 +41,4 @@ result = loads(browser.find_element(By.ID, "result").text.replace("\'", "\""))
 
 assert result == structure
 
-#browser.quit()
+browser.quit()

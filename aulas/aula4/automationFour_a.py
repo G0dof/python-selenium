@@ -8,7 +8,6 @@ options = webdriver.EdgeOptions()
 browser = webdriver.Edge(options=options)
 browser.maximize_window()
 
-URL = "https://selenium.dunossauro.live/aula6"
+URL = "https://selenium.dunossauro.live/aula_06_a.html"
 browser.get(URL)
 browser.implicitly_wait(5)
-
