@@ -8,10 +8,8 @@ options = webdriver.EdgeOptions()
 browser = webdriver.Edge(options=options)
 browser.maximize_window()
 
-URL = "https://selenium.dunossauro.live/aula_06_a.html"
+URL = "https://flukeout.github.io"
 browser.get(URL)
 browser.implicitly_wait(5)
 
-browser.find_element(By.CSS_SELECTOR, "input").send_keys("Pedrão")
-
-# browser.close()
+browser.close()
