@@ -11,11 +11,9 @@ browser.get(URL)
 browser.implicitly_wait(5)
 sleep(2)
 
-fillValidation = browser.find_element(
-    By.CSS_SELECTOR, "header p > span#num").text
-
 while True:
-    fillValidation = browser.find_element(By.CSS_SELECTOR, "header p > span#num").text
+    fillValidation = browser.find_element(
+        By.CSS_SELECTOR, "header p > span#num").text
     if fillValidation == "":
         break
     formRowCol = browser.find_element(By.CSS_SELECTOR, "header p > span").text
